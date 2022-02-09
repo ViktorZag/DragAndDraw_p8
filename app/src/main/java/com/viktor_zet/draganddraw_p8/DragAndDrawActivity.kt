@@ -1,0 +1,11 @@
+package com.viktor_zet.draganddraw_p8
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class DragAndDrawActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
+}
